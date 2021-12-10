@@ -32,7 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ai.cpp" />
+		<Unit filename="ai.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="utils.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -3,10 +3,10 @@
 
 using namespace std;
 
-void scalar_vector(float s, float *v, int n)
+void vector_plus_vector(float *s, float *v, int n)
 {
     for(int i = 0; i < n; i++)
-        *(v+i) *= s;
+        *(v+i) += *(s+i);
 }
 
 void scalar_matrix(float s, float *matrix, int m, int n)
@@ -16,7 +16,7 @@ void scalar_matrix(float s, float *matrix, int m, int n)
             *(matrix+i*n + j) *= s;
 }
 
-void vector_matrix(float* rez, float *a, float *b, int m, int n)
+void vector_matrix(float *rez, float *a, float *b, int m, int n)
 {
     for(int i = 0; i < n; i++)
     {
@@ -24,6 +24,17 @@ void vector_matrix(float* rez, float *a, float *b, int m, int n)
         for(int j = 0; j < m; j++)
         {
             *(rez + i) += *(a+j) * (*(b+i*n+j));
+        }
+    }
+}
+
+void ReLU(float* a, int n)
+{
+    for(int i = 0; i < n; i++)
+    {
+        if(*(a+i) < 0)
+        {
+            *(a+i) = 0;
         }
     }
 }

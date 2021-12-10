@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1638869917 source:c:\users\dario vajda\onedrive\desktop\škola\igrice\zmija_cpp\zmija_cpp_konzola\main.cpp
+1639133281 source:c:\users\dario vajda\onedrive\desktop\škola\igrice\zmija_cpp\zmija_cpp_konzola\main.cpp
 	<iostream>
 	<conio.h>
 	<unistd.h>
@@ -7,14 +7,14 @@
 	<windows.h>
 	"ai.h"
 
-1638715967 source:c:\users\dario vajda\onedrive\desktop\škola\igrice\zmija_cpp\zmija_cpp_konzola\ai.cpp
+1639092459 source:c:\users\dario vajda\onedrive\desktop\škola\igrice\zmija_cpp\zmija_cpp_konzola\ai.cpp
 	"ai.h"
 	<iostream>
 	<time.h>
 
-1638715094 c:\users\dario vajda\onedrive\desktop\škola\igrice\zmija_cpp\zmija_cpp_konzola\ai.h
+1639092459 c:\users\dario vajda\onedrive\desktop\škola\igrice\zmija_cpp\zmija_cpp_konzola\ai.h
 
-1638714979 source:c:\users\dario vajda\onedrive\desktop\škola\igrice\zmija_cpp\zmija_cpp_konzola\utils.cpp
+1638920136 source:c:\users\dario vajda\onedrive\desktop\škola\igrice\zmija_cpp\zmija_cpp_konzola\utils.cpp
 	"ai.h"
 	<iostream>
 
